@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/ingydotnet/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/alemuller/tree-sitter-vhdl
+	branch = main
+	commit = a3b2d84990527c7f8f4ae219c332c00c33d2d8e5
+	parent = 48270c6a27024ed44f180a825f8e773b48e1e236
+	method = merge
+	cmdver = 0.4.9
