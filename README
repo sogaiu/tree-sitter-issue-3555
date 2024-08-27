@@ -1,5 +1,8 @@
 https://github.com/tree-sitter/tree-sitter/issues/3555
 
+$ git clone https://github.com/sogaiu/tree-sitter-issue-3555
+$ cd tree-sitter-issue-3555
+
 $ sh build.sh
 $ ./a.out
 node=block_header 220-258
