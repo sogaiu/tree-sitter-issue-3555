@@ -1,0 +1,11 @@
+https://github.com/tree-sitter/tree-sitter/issues/3555
+
+$ sh build.sh
+$ ./a.out
+node=block_header 220-258
+
+# in main.c, comment out lines 77+78 (node = ... and cursor = ...)
+# then:
+$ sh build.sh
+$ ./a.out
+node=comment 220-258
